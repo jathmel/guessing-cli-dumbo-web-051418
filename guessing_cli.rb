@@ -6,14 +6,14 @@ def run_guessing_game
   guess = gets.chomp
   case guess 
     when 'exit'
-      puts 'Goodbye'
+      puts 'Goodbye!'
     else
       if guess == actual_num
         'You guessed the correct number!'
       elsif guess != actual_num
         "The computer guessed #{guess}."
       elsif guess == 'exit'
-        'Goodbye'
+        'Goodbye!'
       else
         puts 'Goodbye'
       end
