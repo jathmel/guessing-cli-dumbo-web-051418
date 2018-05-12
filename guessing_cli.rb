@@ -1,7 +1,8 @@
 # Code your solution here!
 require 'pry'
-binding.pry
+
 def run_guessing_game
+  binding.pry
   actual_num = 1 + rand(7)
   puts 'Guess a number between 1 and 6.'
   guess = gets.chomp
