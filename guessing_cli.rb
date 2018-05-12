@@ -15,7 +15,7 @@ def run_guessing_game
       elsif guess == 'exit'
         'Goodbye'
       else
-        puts 'Goodbye'
+        puts 'Goodbye!'
       end
   # end
   
