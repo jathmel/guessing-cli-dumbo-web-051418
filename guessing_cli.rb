@@ -1,7 +1,7 @@
 # Code your solution here!
 
 def run_guessing_game
-  actual_num = rand(7)
+  actual_num = 1 + rand(7)
   puts 'Guess a number between 1 and 6.'
   guess = gets.chomp
   case guess 
